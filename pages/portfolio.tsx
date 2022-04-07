@@ -130,7 +130,7 @@ export default function PortfolioPage() {
         </WebItemName>
 
         <WebItemInfo>
-          <strong>Tools Used:</strong> React 17.0.2
+          <strong>Tools Used:</strong> React 18.0, Next.js
           <br />
           <strong>Summary:</strong> You are here! This is my personal portfolio site and testing
           ground for new technologies and ideas.
