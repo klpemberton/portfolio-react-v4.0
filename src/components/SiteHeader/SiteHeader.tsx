@@ -28,7 +28,7 @@ const HiddenText = styled.span`
   width: 0;
   height: 31px;
   overflow: hidden;
-  transition: width 0.5s linear;
+  transition: width 0.3s linear;
 `;
 
 const Expander = styled.div`
