@@ -6,6 +6,6 @@
 /.next/
 /.prettierrc
 /next-env.d.ts
-/public
+/public/
 /out/
 /.eslintignore
