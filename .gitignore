@@ -2,6 +2,10 @@
 /yarn.lock
 /yarn-error.log
 /node_modules/
-/src/assets/img/
 /.svn/
 /.next/
+/.prettierrc
+/next-env.d.ts
+/public
+/out/
+/.eslintignore
