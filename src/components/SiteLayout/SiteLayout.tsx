@@ -58,9 +58,13 @@ const SiteBody = styled.main<{ mobile: boolean }>`
 `;
 
 const SiteLayout = ({ children }: { children: ReactNode }) => {
-  const { mobile } = useBreakpoint();
+  const isMobile = useBreakpoint();
   const router = useRouter();
   const { pathname } = router;
+
+  if (isMobile === null) {
+    return null;
+  }
 
   return (
     <>
@@ -71,12 +75,12 @@ const SiteLayout = ({ children }: { children: ReactNode }) => {
       <Theme>
         {
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-          //  @ts-ignore *
+          // @ts-ignore
           <GlobalStyles />
         }
         <Wrapper>
           <SiteHeader />
-          <SiteBody key={pathname} mobile={mobile}>
+          <SiteBody key={pathname} mobile={isMobile}>
             <SiteNavigation />
             {children}
           </SiteBody>

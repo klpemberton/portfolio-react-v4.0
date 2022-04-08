@@ -11,7 +11,7 @@ export interface NavData {
   };
 }
 
-export const NavData: NavData = {
+export const navData: NavData = {
   about: {
     activeRoute: {
       contact: {

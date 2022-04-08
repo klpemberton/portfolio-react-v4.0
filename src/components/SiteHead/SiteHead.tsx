@@ -21,7 +21,7 @@ export default function SiteHead({
         <meta name="apple-mobile-web-app-title" content="Kristine Pemberton" />
         <meta name="application-name" content="Kristine Pemberton" />
         <meta name="msapplication-config" content="/static/browserconfig.xml" />
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:600,900" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
     </>
   );

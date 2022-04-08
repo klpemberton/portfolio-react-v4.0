@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled, { ThemeContext } from 'styled-components';
 import { FaBriefcase, FaEnvelope, FaExclamationCircle, FaHome, FaUser } from 'react-icons/fa';
-import { NavData } from './navData';
+import { navData } from '../../constants/navData';
 import Link from 'next/link';
 import useBreakpoint from '../../hooks/useBreakpoint';
 import { Theme } from '../../styles/theme';
@@ -67,7 +67,7 @@ const getPosition = (linkRoute: string, activeRoute: string, mobile: boolean) =>
     return mobile ? '0' : '96%';
   }
 
-  return NavData[linkRouteName].activeRoute[activeRouteName].position[screenSize];
+  return navData[linkRouteName].activeRoute[activeRouteName].position[screenSize];
 };
 
 const getIcon = (route: string, iconSize: number) => {
@@ -88,13 +88,13 @@ const getIcon = (route: string, iconSize: number) => {
 };
 
 const SiteNavigationItem = ({ activeRoute, isActive, route }: SiteNavigationItem) => {
-  const { desktop, mobile } = useBreakpoint();
+  const isMobile = useBreakpoint();
   const linkRoute = route === '/' ? 'home' : route.substring(1);
   const currentRoute = activeRoute === '/' ? 'home' : activeRoute.substring(1);
   const isErrorPage = linkRoute === '_error' && currentRoute === '_error';
   const { colors } = useContext(ThemeContext as React.Context<Theme>);
-  const position = getPosition(linkRoute, currentRoute, mobile);
-  const iconSize = desktop ? 28 : 22;
+  const position = getPosition(linkRoute, currentRoute, isMobile);
+  const iconSize = !isMobile ? 28 : 19;
 
   if (linkRoute === '_error' && !isErrorPage) {
     return null;

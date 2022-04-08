@@ -1,21 +1,32 @@
+import { useEffect, useState } from 'react';
 import { theme } from '../styles/theme';
-import useMatchMedia from './useMatchMedia';
 
-export default function useBreakpoint(query = null) {
+export default function useBreakpoint() {
+  const [isMatch, setIsMatch] = useState<boolean | null>(null);
+
   const mobileQuery = `(max-width: ${theme.breakpoints.mobile.maxWidth}px)`;
-  const desktopQuery = `(min-width: ${theme.breakpoints.desktop.minWidth}px)`;
 
-  if (typeof query === 'string' && theme.breakpoints[query] !== null) {
-    query = theme.breakpoints[query];
-  }
+  useEffect(() => {
+    if (window) {
+      let mounted = true;
+      const mql = window.matchMedia(mobileQuery);
 
-  const desktop = useMatchMedia(desktopQuery, true);
-  const mobile = useMatchMedia(mobileQuery, !desktop);
-  const matches = useMatchMedia(query, false);
+      const onChange = () => {
+        if (!mounted) {
+          return;
+        }
+        setIsMatch(mql.matches);
+      };
 
-  return {
-    mobile,
-    desktop,
-    matches,
-  };
+      window.addEventListener('resize', onChange);
+      setIsMatch(mql.matches);
+
+      return () => {
+        mounted = false;
+        window.removeEventListener('resize', onChange);
+      };
+    }
+  }, []);
+
+  return isMatch;
 }

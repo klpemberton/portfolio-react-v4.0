@@ -25,7 +25,7 @@ export const JobsDataFeatured: ResumeData[] = [
         summary:
           'Work with cross-functional teams to create the public-facing React experience and develop internal tooling to improve business processes. Perform code review and mentor junior engineers. Continually improve front end tooling and help define development standards and best practices.',
         accomplishments: [
-          'Own the patient-facing dashboard by leading technical design, planning, implementation, and task delegation..',
+          'Own the patient-facing dashboard by leading technical design, planning, implementation, and task delegation.',
           'Alongside the Staff Engineer, implemented new video telemedicine platform.',
           'Led front end implementation for new dermatology product line, including creating a new patient onboarding medical questionnaire and enabling self-service on the patient-facing dashboard.',
         ],
@@ -42,7 +42,7 @@ export const JobsDataFeatured: ResumeData[] = [
         summary:
           'For global fashion brand JustFab, upgrade the legacy ColdFusion codebase to use the new Bento microservices platform, and implement a brand-new React + Redux front end. Design and implement high-visibility KIs. Optimize existing applications for maximum speed and scalability. Provide guidance and training on new front end tools and features.',
         accomplishments: [
-          'Lead Engineer for the Bento React Migration for JustFab',
+          'Lead Engineer for the Bento React Migration for JustFab.',
           'Alongside the Staff Software Engineer, designed and implemented new Smart Filters product filtering functionality for JustFab using Vue.js.',
         ],
       },
