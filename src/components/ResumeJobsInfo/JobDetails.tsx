@@ -10,9 +10,8 @@ const Details = styled.div`
 
 const DetailsContainer = styled.div<{ isOpen?: boolean }>`
   transform-origin: top;
-  ${({ isOpen }) => (isOpen ? 'transform: scaleY(100%);' : 'transform: scaleY(0);')}
-
-  transition: 0.2s linear all;
+  ${({ isOpen }) =>
+    isOpen ? 'transform: scaleY(100%); transition: 0.1s linear all;' : 'transform: scaleY(0);'}
 `;
 
 const JobItem = styled.div<{ isOpen: boolean }>`
@@ -29,7 +28,7 @@ const JobItem = styled.div<{ isOpen: boolean }>`
     ${Icon} {
       transform: rotate(0deg);
       transform: translateY(-5px);
-      transition: 0.2s ease-in-out all;
+      transition: 0.1s ease-in-out all;
       ${isOpen ? `transform: rotate(90deg);` : ``}
     }
 `}

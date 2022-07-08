@@ -17,7 +17,7 @@ export const skillsSummaryData: SkillsSummaryDataItem[] = [
   },
   {
     icon: '👩‍💻',
-    type: 'Back End',
+    type: 'Full Stack',
     data: [
       'Node.js, TypeScript',
       'API Design & Development',

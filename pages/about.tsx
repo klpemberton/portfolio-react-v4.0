@@ -74,18 +74,29 @@ export default function AboutPage() {
         </Paragraph>
 
         <Paragraph>
-          Making websites is still essentially what I do today, with 12 years of hands-on
-          professional experience at large corporations based in Bloomington, Indiana and San Luis
-          Obispo, Los Angeles, and San Mateo, California. I&apos;m currently a full-time remote
-          Senior Front End Software Engineer for a femtech comapny called Favor.
+          Making websites is still essentially what I do today, with 12 years of professional
+          experience at large corporations based in Bloomington, Indiana and San Luis Obispo, Los
+          Angeles, and San Mateo, California. I&apos;m currently a Senior Front End Software
+          Engineer for a femtech company called Favor.
         </Paragraph>
 
         <Paragraph>
-          I am at my happiest when spending time with animals and nature. I love anything to do with
-          the great outdoors, and am currently obsessed with mountains and mountaineering. I love to
-          travel, and in the last 4 years have resided in Morro Bay, California; Spokane,
-          Washington; and now Washougal, Washington in the beautiful Columbia River Gorge National
-          Scenic Area.
+          I am at my happiest when spending time with animals and nature. I&apos;ve found my calling
+          in invasive plant removal and native plant and habitat restoration, which I do on my own
+          property and by volunteering regularly with several local non-profit organizations
+          throughout the region. If I&apos;m not restoring ecosystems I can usually be found hiking
+          up a mountain somewhere. In my downtime I enjoy disc golf, gaming, and motorsport
+          (especially Formula 1, IndyCar, and IMSA).
+        </Paragraph>
+
+        <Paragraph>
+          I love to travel and see new places and things, and have recently resided in Morro Bay,
+          California; Spokane, Washington; and now Skamania County, Washington on the edge of the
+          awesome Columbia River Gorge National Scenic Area where I live with my husband, our mini
+          American Eskimo dog Senna, two goldfish, a couple dozen other small freshwater fish, a
+          brown anole that arrived at my doorstep as a stowaway in a shipment from Florida, various
+          forest friends including Douglas squirrels and Steller&apos;s jays, and a boatload of
+          plants.
         </Paragraph>
       </Content>
 

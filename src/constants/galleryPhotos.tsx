@@ -6,6 +6,21 @@ export interface GalleryPhoto {
 
 export const galleryPhotos: GalleryPhoto[] = [
   {
+    src: '/kp20.jpg',
+    width: 3,
+    height: 4,
+  },
+  {
+    src: '/kp19.jpg',
+    width: 4,
+    height: 3,
+  },
+  {
+    src: '/kp18.jpg',
+    width: 3,
+    height: 4,
+  },
+  {
     src: '/kp16.jpg',
     width: 3,
     height: 4,
