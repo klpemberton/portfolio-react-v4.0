@@ -19,6 +19,8 @@ export default function useIntersectionObserver(
   useEffect(() => {
     if (targetElement) {
       const node = targetElement?.['current'];
+      if (!node) return;
+
       const observer = new IntersectionObserver(updateEntry, observerOptions);
 
       observer.observe(node);

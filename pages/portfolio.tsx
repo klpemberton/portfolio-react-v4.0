@@ -114,14 +114,58 @@ export default function PortfolioPage() {
         <span>Portfolio</span>
       </Heading>
 
+      <Subheading>
+        <span>Ecology</span>
+      </Subheading>
       <Paragraph>
-        In my day job I&apos;m a full-time Software Engineer, but I&apos;ve also done some freelance
-        work on the side.
+        I am passionate about restoring native ecosystems, protecting watersheds, preserving
+        old-growth forests, and saving the salmon.
       </Paragraph>
+      <WebItem>
+        <WebItemName>
+          <WebItemLink href="https://www.instagram.com/p/CfeVFc3hxyl/" target="_blank">
+            Beaver Marsh Park - Vancouver, WA
+          </WebItemLink>
+        </WebItemName>
+
+        <WebItemInfo>
+          Volunteered with The Watershed Alliance for removal of English ivy and holly along Burnt
+          Bridge Creek.
+        </WebItemInfo>
+      </WebItem>
+
+      <WebItem>
+        <WebItemName>
+          <WebItemLink href="https://www.instagram.com/p/Cc4CxLbBF-A/" target="_blank">
+            Mable Kerr Park - Washougal, WA
+          </WebItemLink>
+        </WebItemName>
+
+        <WebItemInfo>
+          Volunteered with the Lower Columbia Estuary Partnership for removal of Himalayan
+          blackberry, English ivy, and other invasives along Campen Creek.
+        </WebItemInfo>
+      </WebItem>
+
+      <WebItem>
+        <WebItemName>
+          <WebItemLink>Skamania County, WA</WebItemLink>
+        </WebItemName>
+
+        <WebItemInfo>
+          Ongoing removal of Himalayan blackberry, English ivy, Herb Robert, tansy, thistle, and
+          other invasives on 3+ acre personal property. This removal is allowing existing native
+          plants to thrive and repopulate. Includes restoration of 1+ acre of second-growth forest.
+        </WebItemInfo>
+      </WebItem>
 
       <Subheading>
         <span>Web</span>
       </Subheading>
+      <Paragraph>
+        In my day job I&apos;m a full-time Software Engineer, but I&apos;ve also done some freelance
+        work on the side.
+      </Paragraph>
       <WebItem>
         <WebItemName>
           <WebItemLink href="https://kristinepemberton.com" target="_blank">
