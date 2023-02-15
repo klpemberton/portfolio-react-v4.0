@@ -9,7 +9,7 @@ export const skillsSummaryData: SkillsSummaryDataItem[] = [
     icon: '⚛️',
     type: 'Front End',
     data: [
-      'JavaScript, React, Redux, Vue.js, TypeScript',
+      'JavaScript, React, TypeScript, Redux, Vue.js',
       'API Integration',
       'Git, yarn, npm, Gulp, Webpack, Jenkins',
       'Shared Component Architecture',
@@ -28,6 +28,6 @@ export const skillsSummaryData: SkillsSummaryDataItem[] = [
   {
     icon: '👩‍🏫',
     type: 'Leadership',
-    data: ['Code Review', 'Training/Mentoring', 'Pair Programming', 'Project Lead'],
+    data: ['Project & Team Lead', 'Code Review', 'Training/Mentoring', 'Pair Programming'],
   },
 ];

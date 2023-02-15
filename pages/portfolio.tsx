@@ -83,6 +83,12 @@ const WebItemLink = styled.a`
   border-bottom: 3px solid ${(props) => props.theme.colors.portfolio};
 `;
 
+const WebItemLinkSmall = styled(WebItemLink)`
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 700;
+`;
+
 const WebItemInfo = styled.div`
   margin-left: 0;
 
@@ -121,6 +127,40 @@ export default function PortfolioPage() {
         I am passionate about restoring native ecosystems, protecting watersheds, preserving
         old-growth forests, and saving the salmon.
       </Paragraph>
+
+      <WebItem>
+        <WebItemName>
+          <WebItemLink
+            href="https://storymaps.arcgis.com/stories/aee7fb7fbdd74407bf447101ae7d76c0"
+            target="_blank"
+          >
+            Steigerwald National Wildlife Refuge - Washougal, WA
+          </WebItemLink>
+        </WebItemName>
+
+        <WebItemInfo>
+          <WebItemLinkSmall href="https://www.instagram.com/p/Cl39Nmtp689/" target="_blank">
+            December 3, 2022
+          </WebItemLinkSmall>{' '}
+          •{' '}
+          <WebItemLinkSmall href="https://www.instagram.com/p/CoF5h9CvTvQ/" target="_blank">
+            January 28, 2023
+          </WebItemLinkSmall>{' '}
+          •{' '}
+          <WebItemLinkSmall
+            href="https://estuarypartnership.app.neoncrm.com/np/clients/estuarypartnership/event.jsp?event=317"
+            target="_blank"
+          >
+            March 11, 2023
+          </WebItemLinkSmall>
+          <br />
+          Volunteering with The Lower Columbia Estuary Partnership to plant native trees snd shrubs
+          to enhance native habitat and improve the water quality of Gibbons Creek during the final
+          year of this amazing project, the largest ever restoration project on the lower Columbia
+          River.
+        </WebItemInfo>
+      </WebItem>
+
       <WebItem>
         <WebItemName>
           <WebItemLink href="https://www.instagram.com/p/CfeVFc3hxyl/" target="_blank">
@@ -155,7 +195,8 @@ export default function PortfolioPage() {
         <WebItemInfo>
           Ongoing removal of Himalayan blackberry, English ivy, Herb Robert, tansy, thistle, and
           other invasives on 3+ acre personal property. This removal is allowing existing native
-          plants to thrive and repopulate. Includes restoration of 1+ acre of second-growth forest.
+          plants to thrive and repopulate. Includes monitoring and preservation of 2+ acres of
+          non-virgin old-growth forest and restoration of 1+ acre of second-growth forest.
         </WebItemInfo>
       </WebItem>
 

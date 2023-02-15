@@ -22,19 +22,19 @@ export const navData: NavData = {
       },
       error: {
         position: {
-          desktop: '45px',
+          desktop: '3.75vw',
           mobile: '88%',
         },
       },
       home: {
         position: {
-          desktop: '45px',
+          desktop: '3.75vw',
           mobile: '88%',
         },
       },
       portfolio: {
         position: {
-          desktop: '90px',
+          desktop: '7.5vw',
           mobile: '82%',
         },
       },
@@ -44,7 +44,7 @@ export const navData: NavData = {
     activeRoute: {
       about: {
         position: {
-          desktop: '90px',
+          desktop: '7.5vw',
           mobile: '82%',
         },
       },
@@ -62,7 +62,7 @@ export const navData: NavData = {
       },
       portfolio: {
         position: {
-          desktop: '45px',
+          desktop: '3.75vw',
           mobile: '88%',
         },
       },
@@ -82,13 +82,13 @@ export const navData: NavData = {
     activeRoute: {
       about: {
         position: {
-          desktop: '45px',
+          desktop: '3.75vw',
           mobile: '88%',
         },
       },
       contact: {
         position: {
-          desktop: '90px',
+          desktop: '7.5vw',
           mobile: '82%',
         },
       },
@@ -116,19 +116,19 @@ export const navData: NavData = {
       },
       contact: {
         position: {
-          desktop: '45px',
+          desktop: '3.75vw',
           mobile: '88%',
         },
       },
       error: {
         position: {
-          desktop: '90px',
+          desktop: '7.5vw',
           mobile: '82%',
         },
       },
       home: {
         position: {
-          desktop: '90px',
+          desktop: '7.5vw',
           mobile: '82%',
         },
       },

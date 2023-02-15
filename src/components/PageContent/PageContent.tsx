@@ -14,7 +14,7 @@ const Border = styled.div`
   height: 82%;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.desktop.minWidth}px) {
-    left: 135px;
+    left: 11vw;
     width: 88%;
     height: 100%;
   }

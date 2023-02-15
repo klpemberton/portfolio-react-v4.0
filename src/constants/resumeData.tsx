@@ -23,10 +23,9 @@ export const JobsDataFeatured: ResumeData[] = [
         company: 'Favor',
         location: 'Remote',
         summary:
-          'Favor, formerly known as The Pill Club, is a wellbeing coalition dedicated to accessible, affordable birth control, skin care, menstrual care, and more. As Front End Tech Lead, work with cross-functional teams to create the public-facing React experience and develop internal tools to improve business processes. Perform code review and mentor junior engineers. Continually improve front end tooling and help define development standards and best practices.',
+          'Favor, formerly known as The Pill Club, is a wellbeing coalition dedicated to accessible, affordable birth control, skin care, and more. As Front End Tech Lead, lead front end technical design, planning, implementation, and delegation. Lead and own the patient-facing React experience, improving retention and conversion. Work with cross-functional teams to craft patient-facing features and develop internal tools to improve business processes. Perform code review and mentor junior engineers. Continually improve front end tooling and help define development standards and best practices.',
         accomplishments: [
-          'Lead front end technical design, planning, implementation, and delegation.',
-          'Architected and led implementation of Cypress e2e testing.',
+          'Designed and led implementation of Cypress e2e testing.',
           'Led front end implementation of new dermatology product line.',
           'Alongside the Staff Engineer, implemented new video telemedicine platform.',
         ],

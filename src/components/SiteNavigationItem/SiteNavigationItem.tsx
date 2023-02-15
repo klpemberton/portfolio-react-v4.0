@@ -24,7 +24,7 @@ const NavListItem = styled.li<{ backgroundColor: string; isActive: boolean; posi
   @media (min-width: ${({ theme }) => theme.breakpoints.desktop.minWidth}px) {
     height: 100%;
     width: 4%;
-    min-width: 45px;
+    min-width: 1px;
 
     ${({ position }) => `left: ${position};`}
 
