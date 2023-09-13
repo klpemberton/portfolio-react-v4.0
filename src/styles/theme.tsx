@@ -96,6 +96,10 @@ export const GlobalStyles = createGlobalStyle`
   
   p {
     font-size: 17px;
+
+    @media (max-width: ${theme.breakpoints.desktop.minWidth}px) {
+      font-size: 16px;
+    }
   }
 
   input,

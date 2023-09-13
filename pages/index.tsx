@@ -12,6 +12,10 @@ const Heading = styled.h1`
   span {
     border-bottom: 10px solid ${(props) => props.theme.colors.home};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.desktop.minWidth}px) {
+    line-height: 55px;
+  }
 `;
 
 const Subheading = styled.h2`
@@ -24,10 +28,19 @@ const Subheading = styled.h2`
   span {
     border-bottom: 6px solid ${(props) => props.theme.colors.home};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.desktop.minWidth}px) {
+    margin: 50px auto 0;
+    line-height: 45px;
+  }
 `;
 
 const HeadingNoUnderline = styled.h3`
   text-align: center;
+`;
+
+const IntroHeadingNoUnderline = styled(HeadingNoUnderline)`
+  margin-top: 40px;
 `;
 
 const SmallHeadingNoUnderline = styled.h4`
@@ -131,14 +144,14 @@ export default function HomePage() {
       <Heading>
         <span>Kristine Pemberton</span>
       </Heading>
-      <Subheading>
+      {/* <Subheading>
         <span>Senior Front End Software Engineer</span>
-      </Subheading>
+      </Subheading> */}
 
-      <HeadingNoUnderline>
-        12 years of experience developing and maintaining front end codebases within the full
+      <IntroHeadingNoUnderline>
+        13 years of experience developing and maintaining front end codebases within the full
         software development lifecycle.
-      </HeadingNoUnderline>
+      </IntroHeadingNoUnderline>
 
       <Paragraph>
         Fluent in various front end languages and related technologies; experienced with numerous

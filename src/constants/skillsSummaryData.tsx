@@ -28,6 +28,6 @@ export const skillsSummaryData: SkillsSummaryDataItem[] = [
   {
     icon: '👩‍🏫',
     type: 'Leadership',
-    data: ['Project & Team Lead', 'Code Review', 'Training/Mentoring', 'Pair Programming'],
+    data: ['Project & Team Lead', 'Code Review', 'Onboarding & Mentoring', 'Pair Programming'],
   },
 ];

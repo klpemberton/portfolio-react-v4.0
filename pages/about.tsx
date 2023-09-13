@@ -64,8 +64,8 @@ export default function AboutPage() {
 
       <Content>
         <Paragraph>
-          I&apos;m Kristine and in my day job I&apos;m a Senior Front End Software Engineer. I began
-          creating websites as a little kid&mdash;here&apos;s my very first site,&nbsp;
+          I&apos;m Kristine and I&apos;m a web developer/front end engineer. I began creating
+          websites as a little kid&mdash;here&apos;s my very first site,&nbsp;
           <Link href="http://geocities.ws/purrfectpetzplace/" target="_blank">
             Purrfect Petz Place
           </Link>
@@ -78,16 +78,15 @@ export default function AboutPage() {
           in native ecosystem restoration and preservation, which I do on my own property as well as
           by volunteering regularly with local non-profit organizations. If I&apos;m not out
           restoring ecosystems I can usually be found hiking up a mountain somewhere. In my downtime
-          I enjoy indoor rock climbing (outdoor in progress!), disc golf, gaming, and motorsport
-          (especially Formula 1, IndyCar, and IMSA).
+          I enjoy rock climbing, disc golf, gaming, and motorsport (especially Formula 1 and
+          IndyCar).
         </Paragraph>
 
         <Paragraph>
           I love to travel and see new places and things, and have recently resided in Morro Bay,
           California; Spokane, Washington; and now Skamania County, Washington on the edge of the
           awesome Columbia River Gorge National Scenic Area where I live with my husband, several
-          pets, and various forest friends including Douglas squirrels and Steller&apos;s jays, and
-          a boatload of plants.
+          pets, various forest friends, and a boatload of plants.
         </Paragraph>
       </Content>
 

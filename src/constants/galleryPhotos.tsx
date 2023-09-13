@@ -26,11 +26,15 @@ export const galleryPhotos: GalleryPhoto[] = [
     height: 4,
   },
   {
+    src: '/kp21.jpg',
+    width: 4,
+    height: 3,
+  },
+  {
     src: '/kp15.jpg',
     width: 4,
     height: 3,
   },
-
   {
     src: '/kp13.jpg',
     width: 3,

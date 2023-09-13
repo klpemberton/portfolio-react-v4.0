@@ -6,6 +6,10 @@ const Icon = styled.span``;
 
 const Details = styled.div`
   padding-left: 40px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.desktop.minWidth}px) {
+    padding-left: 0;
+  }
 `;
 
 const DetailsContainer = styled.div<{ isOpen?: boolean }>`
@@ -74,8 +78,14 @@ const CompanyInfo = styled.div`
   font-weight: 700;
 `;
 
+const Summary = styled.p`
+  @media (max-width: ${({ theme }) => theme.breakpoints.desktop.minWidth}px) {
+    font-size: 16px;
+  }
+`;
+
 const Italic = styled.div`
-  margin: 15px 0 10px;
+  margin: 20px 0 10px;
   font-style: italic;
 `;
 
@@ -114,10 +124,11 @@ const JobDetails = ({ title, dates, details }: ResumeData) => {
           return (
             <Details key={`${company}-${location}`}>
               <CompanyInfo>
-                {company} - {location}
+                <p>
+                  {company} - {location}
+                </p>
               </CompanyInfo>
-              {summary}
-              <br />
+              <Summary>{summary}</Summary>
               <Italic>Selected Accomplishments:</Italic>
 
               <Accomplishments>

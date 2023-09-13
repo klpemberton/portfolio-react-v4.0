@@ -16,14 +16,29 @@ export type AdditionalJob = Pick<ResumeData, 'title' | 'dates'> &
 
 export const JobsDataFeatured: ResumeData[] = [
   {
-    title: 'Senior Front End Software Engineer',
-    dates: '2020 - Present',
+    title: 'Staff Software Engineer',
+    dates: '04/2023 - 06/2023',
     details: [
       {
-        company: 'Favor',
+        company: 'The Pill Club',
         location: 'Remote',
         summary:
-          'Favor, formerly known as The Pill Club, is a wellbeing coalition dedicated to accessible, affordable birth control, skin care, and more. As Front End Tech Lead, lead front end technical design, planning, implementation, and delegation. Lead and own the patient-facing React experience, improving retention and conversion. Work with cross-functional teams to craft patient-facing features and develop internal tools to improve business processes. Perform code review and mentor junior engineers. Continually improve front end tooling and help define development standards and best practices.',
+          'The Pill Club was a wellbeing coalition dedicated to accessible, affordable birth control, skin care, and more. Led technical design, planning, implementation, and delegation. Worked with cross-functional teams to build large-scale features and evolve systems and processes toward long-term strategies. Leveled up all teams through mentoring, collaboration, and effective communication.',
+        accomplishments: [
+          'Led front end implementation of new self-service funnel for renewing patients.',
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Senior Front End Software Engineer',
+    dates: '10/2020 - 04/2023',
+    details: [
+      {
+        company: 'The Pill Club',
+        location: 'Remote',
+        summary:
+          'As Front End Tech Lead, led front end technical design, planning, implementation, and delegation. Led and owned the patient-facing React experience, improving retention and conversion. Worked with cross-functional teams to craft patient-facing features and develop internal tools to improve business processes. Performed code review and mentored junior engineers. Continually improved front end tooling and helped define development standards and best practices.',
         accomplishments: [
           'Designed and led implementation of Cypress e2e testing.',
           'Led front end implementation of new dermatology product line.',
@@ -34,13 +49,13 @@ export const JobsDataFeatured: ResumeData[] = [
   },
   {
     title: 'Senior Front End Software Engineer',
-    dates: '2018 - 2020',
+    dates: '07/2018 - 10/2020',
     details: [
       {
         company: 'TechStyle Fashion Group',
         location: 'Remote',
         summary:
-          'For global fashion brand JustFab, upgrade the legacy ColdFusion codebase to use the new Bento microservices platform, and implement a brand-new React + Redux front end. Design and implement high-visibility KIs. Optimize existing applications for maximum speed and scalability. Provide guidance and training on new front end tools and features.',
+          'For global fashion brand JustFab, upgraded the legacy ColdFusion codebase to use the new Bento microservices platform, and implemented a brand-new React + Redux front end. Designed and implemented high-visibility KIs. Optimized existing applications for maximum speed and scalability. Provided guidance and training on new front end tools and features.',
         accomplishments: [
           'Lead Engineer for the Bento React Migration for JustFab.',
           'Alongside the Staff Software Engineer, designed and implemented new Smart Filters product filtering functionality for JustFab using Vue.js.',
@@ -50,7 +65,7 @@ export const JobsDataFeatured: ResumeData[] = [
   },
   {
     title: 'Senior Front End Developer',
-    dates: '2016 - 2018',
+    dates: '11/2016 - 07/2018',
     details: [
       {
         company: 'TransUnion',
@@ -67,7 +82,7 @@ export const JobsDataFeatured: ResumeData[] = [
   },
   {
     title: 'Front End Developer',
-    dates: '2015 - 2016',
+    dates: '03/2015 - 11/2016',
     details: [
       {
         company: 'TransUnion',
@@ -83,7 +98,7 @@ export const JobsDataFeatured: ResumeData[] = [
   },
   {
     title: 'Front End Developer',
-    dates: '2013 - 2015',
+    dates: '04/2013 - 03/2015',
     details: [
       {
         company: 'Cook Medical',
