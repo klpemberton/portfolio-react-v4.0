@@ -38,9 +38,14 @@ const NavListItem = styled.li<{ backgroundColor: string; isActive: boolean; posi
     width: 100%;
     height: 6%;
   }
+
+  a {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
-const NavLink = styled.a`
+const NavLink = styled.span`
   display: flex;
   justify-content: center;
   align-items: center;
