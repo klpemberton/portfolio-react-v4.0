@@ -140,18 +140,26 @@ export default function PortfolioPage() {
 
         <WebItemInfo>
           <WebItemLinkSmall href="https://www.instagram.com/p/Cl39Nmtp689/" target="_blank">
-            December 3, 2022
-          </WebItemLinkSmall>{' '}
-          •{' '}
+            Dec 3, 2022
+          </WebItemLinkSmall>
+          &nbsp;&nbsp;•&nbsp;&nbsp;
           <WebItemLinkSmall href="https://www.instagram.com/p/CoF5h9CvTvQ/" target="_blank">
-            January 28, 2023
-          </WebItemLinkSmall>{' '}
-          •{' '}
+            Jan 28, 2023
+          </WebItemLinkSmall>
+          &nbsp;&nbsp;•&nbsp;&nbsp;
           <WebItemLinkSmall href="https://www.instagram.com/p/CpwAdSoNBoY/" target="_blank">
-            March 11, 2023
+            Mar 11, 2023
+          </WebItemLinkSmall>
+          &nbsp;&nbsp;•&nbsp;&nbsp;
+          <WebItemLinkSmall href="https://www.instagram.com/p/Cz4tAdOxlWm/" target="_blank">
+            Nov 18, 2023
+          </WebItemLinkSmall>
+          &nbsp;&nbsp;•&nbsp;&nbsp;
+          <WebItemLinkSmall href="https://www.instagram.com/p/C31H2YRtNwm/" target="_blank">
+            Feb 24, 2024
           </WebItemLinkSmall>
           <br />
-          Volunteering with The Lower Columbia Estuary Partnership to plant native trees and shrubs
+          Volunteered with The Lower Columbia Estuary Partnership to plant native trees and shrubs
           to enhance native habitat and improve the water quality of Gibbons Creek during the final
           year of this amazing project, the largest ever restoration project on the lower Columbia
           River.

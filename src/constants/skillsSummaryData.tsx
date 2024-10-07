@@ -9,9 +9,9 @@ export const skillsSummaryData: SkillsSummaryDataItem[] = [
     icon: '⚛️',
     type: 'Front End',
     data: [
-      'JavaScript, React, TypeScript, Redux, Vue.js',
-      'API Integration',
-      'Git, yarn, npm, Gulp, Webpack, Jenkins',
+      'JavaScript, React, TypeScript, GraphQL',
+      'Unit, Integration, & E2E Testing',
+      'Git, Yarn, npm, Gulp, Webpack, Jenkins',
       'Shared Component Architecture',
     ],
   },
@@ -19,7 +19,7 @@ export const skillsSummaryData: SkillsSummaryDataItem[] = [
     icon: '👩‍💻',
     type: 'Full Stack',
     data: [
-      'Node.js, TypeScript',
+      'Node.js, TypeScript, SQL',
       'API Design & Development',
       'AWS: S3, Lambda, API Gateway, CloudFront',
       'Microservices',
