@@ -16,6 +16,21 @@ export type AdditionalJob = Pick<ResumeData, 'title' | 'dates'> &
 
 export const JobsDataFeatured: ResumeData[] = [
   {
+    title: 'Senior Front End Engineer',
+    dates: '11/2023 - Present',
+    details: [
+      {
+        company: 'Anedot',
+        location: 'Remote',
+        summary:
+          'Build new React + React Query fundraising and reporting tools. Improve existing frontend application performance and optimize user experience and accessibility.',
+        accomplishments: [
+          'Co-lead of new Event scheduling and ticketing platform for fundraisers.',
+        ],
+      },
+    ],
+  },
+  {
     title: 'Staff Software Engineer',
     dates: '04/2023 - 06/2023',
     details: [

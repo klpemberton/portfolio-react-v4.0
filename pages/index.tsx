@@ -144,12 +144,12 @@ export default function HomePage() {
       <Heading>
         <span>Kristine Pemberton</span>
       </Heading>
-      {/* <Subheading>
+      <Subheading>
         <span>Senior Front End Software Engineer</span>
-      </Subheading> */}
+      </Subheading>
 
       <IntroHeadingNoUnderline>
-        13 years of experience developing and maintaining front end codebases within the full
+        10+ years of experience developing and maintaining front end codebases within the full
         software development lifecycle.
       </IntroHeadingNoUnderline>
 
