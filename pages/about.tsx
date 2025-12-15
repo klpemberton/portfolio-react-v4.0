@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PageContent from '../src/components/PageContent';
-import ImageGallery from '../src/components/ImageGallery';
-import { galleryPhotos } from '../src/constants/galleryPhotos';
+// import ImageGallery from '../src/components/ImageGallery';
+// import { galleryPhotos } from '../src/constants/galleryPhotos';
 
 const Heading = styled.h1`
   margin: 10px 0 30px;
@@ -73,7 +73,7 @@ export default function AboutPage() {
         </Paragraph>
       </Content>
 
-      <ImageGallery images={galleryPhotos} showGallery={true} />
+      {/* <ImageGallery images={galleryPhotos} showGallery={true} /> */}
     </PageContent>
   );
 }
