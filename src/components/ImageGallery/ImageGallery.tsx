@@ -1,7 +1,6 @@
 import React, { RefObject } from 'react';
 import Gallery, { RenderImageProps } from 'react-photo-gallery';
 import { GalleryPhoto } from '../../constants/galleryPhotos';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 interface ImageGalleryProps {
   images: GalleryPhoto[];
@@ -22,13 +21,14 @@ const ImageGallery = React.forwardRef(({ images, showGallery }: ImageGalleryProp
   };
 
   const imageRenderer = ({ index, left, top, photo }: RenderImageProps) => (
-    <LazyLoadImage
-      key={index}
-      src={photo.src}
+    <img
       alt={photo.alt}
-      width={photo.width}
       height={photo.height}
+      key={index}
+      loading="lazy"
+      src={photo.src}
       style={{ position: 'absolute', left, top }}
+      width={photo.width}
     />
   );
 

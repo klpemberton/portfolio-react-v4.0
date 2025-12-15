@@ -61,6 +61,12 @@ export const galleryPhotos: GalleryPhoto[] = [
     alt: 'Cape Perpetua, Oregon Coast',
   },
   {
+    src: '/kp31.jpg',
+    width: 3,
+    height: 5,
+    alt: 'Columbia River Gorge',
+  },
+  {
     src: '/kp20.jpg',
     width: 3,
     height: 4,

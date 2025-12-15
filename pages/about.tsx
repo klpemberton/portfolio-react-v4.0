@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PageContent from '../src/components/PageContent';
 import ImageGallery from '../src/components/ImageGallery';
-import useIntersectionObserver from '../src/hooks/useIntersectionObserver';
 import { galleryPhotos } from '../src/constants/galleryPhotos';
 
 const Heading = styled.h1`
@@ -39,23 +38,7 @@ const Link = styled.a`
   text-decoration: none;
 `;
 
-const options = {
-  root: null,
-  rootMargin: '100px',
-  threshold: 0.5,
-};
-
 export default function AboutPage() {
-  const [showGallery, setShowGallery] = useState(false);
-  const galleryRef = useRef<Element | null>();
-  const observer = useIntersectionObserver(options, galleryRef);
-
-  useEffect(() => {
-    if (observer?.isIntersecting) {
-      setShowGallery(true);
-    }
-  }, [observer]);
-
   return (
     <PageContent pageTheme="about">
       <Heading>
@@ -90,7 +73,7 @@ export default function AboutPage() {
         </Paragraph>
       </Content>
 
-      <ImageGallery images={galleryPhotos} ref={galleryRef} showGallery={showGallery} />
+      <ImageGallery images={galleryPhotos} showGallery={true} />
     </PageContent>
   );
 }
